@@ -1,0 +1,66 @@
+/* src/pages/MovieDetailsPage/MovieDetailsPage.css */
+.movie-details-page {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  color: #444;
+
+  .movie-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+      margin-right: 20px;
+    }
+
+    .movie-info {
+      flex-grow: 1;
+
+      h1 {
+        margin-top: 0;
+        color: #333;
+      }
+
+      .genre-rating {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+
+        .genre {
+          background: #0056b3;
+          color: white;
+          border-radius: 4px;
+          padding: 5px 10px;
+          margin-right: 15px;
+        }
+
+        .rating {
+          display: inline-block;
+          background: #ffc107;
+          color: #333;
+          padding: 3px 7px;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+
+  .section {
+    margin-top: 20px;
+
+    h2 {
+      color: #0056b3;
+      margin-bottom: 10px;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+  }
+}
